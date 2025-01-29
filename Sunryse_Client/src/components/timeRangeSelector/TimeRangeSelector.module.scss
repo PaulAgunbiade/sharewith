@@ -1,0 +1,32 @@
+@use "../../variables" as var;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.errorText {
+  color: var.$ERROR_RED;
+  font-size: 12px;
+}
+
+.inputsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.dropdownLeft {
+  width: 100%;
+  margin-right: 10px !important;
+}
+
+.dropdownRight {
+  width: 100%;
+  margin-left: 10px;
+}

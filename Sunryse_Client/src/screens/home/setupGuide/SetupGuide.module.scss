@@ -1,0 +1,80 @@
+@use "../../../variables" as var;
+
+.setupHeaderContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 25px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: white;
+  -webkit-box-shadow: var.$BOX_SHADOW;
+  -moz-box-shadow: var.$BOX_SHADOW;
+  box-shadow: var.$BOX_SHADOW;
+}
+
+.setupAccordianContainer {
+  width: 100%;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var.$SOFT_BLACK;
+  margin-bottom: 15px;
+}
+
+.text {
+  font-size: 14px;
+  color: var.$SOFT_BLACK;
+}
+
+.progressContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.progressBarText {
+  font-size: 14px;
+  color: var.$SOFT_BLACK;
+}
+
+.progressBar {
+  width: 70%;
+  margin: 7px 0px 0px 15px;
+}
+
+.setupLaunchContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin: 25px 0px 25px 0px;
+  padding: 25px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background: var.$LIGHT_BLUE;
+  -webkit-box-shadow: var.$BOX_SHADOW;
+  -moz-box-shadow: var.$BOX_SHADOW;
+  box-shadow: var.$BOX_SHADOW;
+}
+
+.launchTitle {
+  font-size: 16px;
+  font-weight: 700;
+  color: var.$SOFT_BLACK;
+  margin-bottom: 15px;
+}
+
+.launchText {
+  font-size: 14px;
+  font-weight: 600;
+  color: var.$SOFT_BLACK;
+}

@@ -1,0 +1,32 @@
+@use "../../../../variables" as var;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 80%;
+  padding: 25px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  background-color: white;
+  -webkit-box-shadow: var.$BOX_SHADOW;
+  -moz-box-shadow: var.$BOX_SHADOW;
+  box-shadow: var.$BOX_SHADOW;
+}
+
+.header {
+  font-size: 16px;
+  font-weight: 700;
+  color: var.$SOFT_BLACK;
+  margin-bottom: 25px;
+}
+
+.locationDropdown {
+  margin-bottom: 20px !important;
+}
+
+.availabilityDropdown {
+  margin-bottom: 20px !important;
+}

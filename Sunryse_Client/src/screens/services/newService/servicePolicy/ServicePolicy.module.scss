@@ -1,0 +1,37 @@
+@use "../../../../variables" as var;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 80%;
+  height: 70%;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  background-color: white;
+  -webkit-box-shadow: var.$BOX_SHADOW;
+  -moz-box-shadow: var.$BOX_SHADOW;
+  box-shadow: var.$BOX_SHADOW;
+}
+
+.header {
+  font-size: 16px;
+  font-weight: 700;
+  color: var.$SOFT_BLACK;
+  margin-bottom: 25px;
+}
+
+.noticeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.policyDropdown {
+  margin-right: 20px !important;
+}

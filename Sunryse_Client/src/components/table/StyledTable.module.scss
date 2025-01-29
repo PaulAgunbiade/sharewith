@@ -1,0 +1,20 @@
+@use "../../variables" as var;
+
+.actionsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icon {
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  color: var.$DARK_GRAY;
+}
+
+.icon:hover {
+  cursor: pointer;
+  background-color: var.$WHITE_GRAY;
+}

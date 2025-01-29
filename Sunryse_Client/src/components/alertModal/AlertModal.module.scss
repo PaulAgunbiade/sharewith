@@ -1,0 +1,11 @@
+@use "../../variables" as var;
+
+.link {
+  color: var.$YELLOW;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

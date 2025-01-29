@@ -1,0 +1,65 @@
+@use "../../variables" as var;
+
+.sideNavcontainer {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: var.$SIDE_NAV_WIDTH;
+  height: 100vh;
+  z-index: var.$SIDE_NAV_Z_INDEX;
+  background-color: var.$DARK_BLUE;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.logoImage {
+  width: 100px;
+  height: 115px;
+  margin: 10px 0px 10px 0px;
+  align-self: center;
+}
+
+.optionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 85%;
+  margin: 10px 15px 0px 15px;
+  padding: 7px 10px 7px 10px;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+.icon {
+  color: white;
+}
+.iconText {
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 10px;
+  color: white;
+}
+
+.optionContainerSelected {
+  background-color: white;
+  .icon {
+    color: var.$DARK_BLUE;
+  }
+  .iconText {
+    color: var.$DARK_BLUE;
+  }
+}
+
+.optionContainer:hover {
+  background-color: white;
+  cursor: pointer;
+  .icon {
+    color: var.$DARK_BLUE;
+  }
+  .iconText {
+    color: var.$DARK_BLUE;
+  }
+}

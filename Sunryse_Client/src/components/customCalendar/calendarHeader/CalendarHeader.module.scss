@@ -1,0 +1,61 @@
+@use "../../../variables" as var;
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+  width: 100%;
+  padding: 0px 0px 20px 0px;
+}
+
+.weekRangeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.weekRangeText {
+  padding: 0px 10px 0px 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var.$DARK_GRAY;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 100%;
+}
+.iconContainer:hover {
+  background-color: var.$WHITE_GRAY;
+  cursor: pointer;
+}
+.icon {
+  color: var.$DARK_GRAY;
+}
+
+.selectedViewButton {
+  font-size: 16px !important;
+  background-color: var.$LIGHT_GRAY !important;
+  color: var.$SOFT_BLACK !important;
+  border: solid !important;
+  border-color: var.$GRAY !important;
+}
+
+.viewButton {
+  font-size: 16px !important;
+  background-color: var.$LIGHT_GRAY !important;
+  color: var.$DARK_GRAY !important;
+}
+
+.viewButton:hover {
+  font-size: 16px !important;
+  background-color: var.$LIGHT_GRAY !important;
+  color: var.$SOFT_BLACK !important;
+  cursor: pointer;
+}

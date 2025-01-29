@@ -1,0 +1,92 @@
+@use "../../variables" as var;
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../../assets/SunryseBackgroundImage.png);
+  background-size: cover !important;
+  background-attachment: fixed;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 500px;
+  padding: 50px;
+  box-sizing: border-box;
+  box-shadow: var.$BOX_SHADOW;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.logo {
+  margin: -20px 0px 0px -20px;
+  width: 215px;
+  height: 80px;
+}
+
+.title {
+  color: var.$SOFT_BLACK;
+  font-weight: 500;
+  margin-top: 25px;
+}
+
+.subtitle {
+  color: var.$DARK_GRAY;
+  font-size: 16px;
+  margin: 5px 0px 10px 0px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.input {
+  margin-top: 10px;
+}
+
+.button {
+  width: 100% !important;
+  height: 50px;
+  margin-top: 25px !important;
+  font-size: 16px !important;
+  background-color: var.$PINK !important;
+}
+.button:hover {
+  background-color: var.$DARK_PINK !important;
+}
+
+.footerContainer {
+  margin: 15px 0px 0px 0px;
+}
+.text {
+  font-size: 14px;
+  font-weight: 500;
+  color: var.$DARK_GRAY;
+}
+.link {
+  color: var.$PINK;
+  text-decoration: none;
+}
+.link:hover {
+  color: var.$DARK_PINK;
+}

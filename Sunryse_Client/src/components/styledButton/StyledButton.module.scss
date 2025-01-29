@@ -1,0 +1,29 @@
+@use "../../variables" as var;
+
+.button {
+  border-style: none;
+  border-radius: 4px;
+  width: auto;
+  height: 35px;
+  padding: 5px 10px;
+
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.base {
+  background-color: var.$BLUE;
+  color: white;
+}
+
+.base:hover {
+  background-color: var.$BLUE_HOVER;
+  cursor: pointer;
+}
+
+.disabled {
+  background-color: var.$WHITE_GRAY;
+  color: var.$DARK_GRAY;
+  cursor: not-allowed;
+}

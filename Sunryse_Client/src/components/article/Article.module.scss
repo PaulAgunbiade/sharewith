@@ -1,0 +1,22 @@
+@use "../../variables" as var;
+.card {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: var.$BOX_SHADOW;
+}
+.content {
+  flex-basis: 50%;
+}
+.title {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.description {
+  color: var.$DARK_GRAY;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 25px;
+}

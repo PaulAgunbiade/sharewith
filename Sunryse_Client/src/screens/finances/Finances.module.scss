@@ -1,0 +1,48 @@
+@use "../../variables" as var;
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  min-height: calc(100vh - var.$NAV_HEIGHT);
+  background-color: var.$WHITE_GRAY;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 95%;
+  min-height: 60vh;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: white;
+  -webkit-box-shadow: var.$BOX_SHADOW;
+  -moz-box-shadow: var.$BOX_SHADOW;
+  box-shadow: var.$BOX_SHADOW;
+}
+
+.image {
+  width: 200px;
+  height: 170px;
+  margin: 70px 0px 25px 0px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var.$SOFT_BLACK;
+  margin-bottom: 25px;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 600;
+  color: var.$DARK_GRAY;
+  margin-bottom: 25px;
+}

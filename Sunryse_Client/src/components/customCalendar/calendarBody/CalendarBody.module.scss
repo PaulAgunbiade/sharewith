@@ -1,0 +1,57 @@
+@use "../../../variables" as var;
+
+.bodyContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: auto;
+}
+
+.timeColumnContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  min-width: 50px;
+  max-width: 50px;
+}
+
+.timeContainer {
+  width: 100%;
+  height: 50px;
+}
+
+.time {
+  font-size: 12px;
+  color: var.$DARK_GRAY;
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+.bodyContainer::-webkit-scrollbar {
+  width: 15px; /* Width of the scrollbar */
+}
+
+.bodyContainer::-webkit-scrollbar-thumb {
+  background-color: var.$LIGHT_GRAY; /* Color of the scrollbar thumb */
+}
+
+.bodyContainer::-webkit-scrollbar-track {
+  background-color: white; /* Background color of the scrollbar track */
+}
+
+/* For Firefox */
+.bodyContainer {
+  scrollbar-width: 15px; /* Width of the scrollbar */
+  scrollbar-color: var.$LIGHT_GRAY white; /* Color of the scrollbar thumb and track */
+}
+
+.bodyContainer::-ms-scrollbar-thumb {
+  background-color: var.$LIGHT_GRAY; /* Color of the scrollbar thumb */
+}
+
+.bodyContainer::-ms-scrollbar-track {
+  background-color: white; /* Background color of the scrollbar track */
+}

@@ -1,0 +1,10 @@
+@use "../../variables" as var;
+
+.box {
+  width: 100% !important;
+  color: var.$PINK;
+}
+
+.linearProgress {
+  border-radius: 15px !important;
+}

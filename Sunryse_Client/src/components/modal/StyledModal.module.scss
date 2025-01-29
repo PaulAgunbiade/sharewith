@@ -1,0 +1,14 @@
+@use "../../variables" as var;
+
+.closeButton {
+  margin: 25px 10px 0px 0px !important;
+}
+
+.continueButton {
+  margin: 25px 10px 0px 0px !important;
+  background-color: var.$SOFT_BLACK !important;
+}
+
+.continueButton:hover {
+  background-color: black !important;
+}

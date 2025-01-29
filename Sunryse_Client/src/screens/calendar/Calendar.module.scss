@@ -1,0 +1,72 @@
+@use "../../variables" as var;
+
+.calendarScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - var.$NAV_HEIGHT);
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: var.$WHITE_GRAY;
+}
+
+.calendarCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: calc(100% - 30px);
+  border-radius: 5px;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: white;
+  -webkit-box-shadow: var.$BOX_SHADOW;
+  -moz-box-shadow: var.$BOX_SHADOW;
+  box-shadow: var.$BOX_SHADOW;
+}
+
+.calendarCardTabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 30px;
+}
+
+.cardTab {
+  width: 100px;
+  height: 100%;
+  border-radius: 10px 10px 0px 0px;
+  margin: 0px 2px 0px 2px;
+  padding: 10px 5px 5px 5px;
+  box-sizing: border-box;
+  background-color: white;
+  -webkit-box-shadow: var.$BOX_SHADOW;
+  -moz-box-shadow: var.$BOX_SHADOW;
+  box-shadow: var.$BOX_SHADOW;
+}
+
+.cardTab:hover {
+  cursor: pointer;
+  .tabText {
+    color: var.$SOFT_BLACK;
+  }
+}
+
+.tabText {
+  color: var.$DARK_GRAY;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.selectedTab {
+  background-color: var.$PINK;
+  .tabText {
+    color: white !important;
+  }
+}

@@ -1,0 +1,59 @@
+@use "../../../../variables" as var;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 80%;
+  height: 70%;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  background-color: white;
+  -webkit-box-shadow: var.$BOX_SHADOW;
+  -moz-box-shadow: var.$BOX_SHADOW;
+  box-shadow: var.$BOX_SHADOW;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.pricingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  margin-left: 10px;
+}
+
+.taxDropdown {
+  margin-top: 15px;
+}
+
+.header {
+  font-size: 16px;
+  font-weight: 700;
+  color: var.$SOFT_BLACK;
+  margin-bottom: 25px;
+}
+
+.textField {
+  margin-top: 15px !important;
+}

@@ -1,0 +1,90 @@
+$DARK_BLUE: #00282e;
+$BLUE: #016677;
+$BLUE_HOVER: #006a7b;
+$LIGHT_BLUE: #cce7eb;
+
+$DARK_PINK: #cc4a4c;
+$PINK: #ff5c5f;
+$LIGHT_PINK: #ffa9ab;
+
+$DARK_GREEN: #41691b;
+$GREEN: #81d135;
+$LIGHT_GREEN: #e6f6d7;
+
+$ERROR_RED: #c5514f;
+
+$SOFT_BLACK: #303030;
+$DARK_GRAY: #5e5e5e;
+$GRAY: #b1b1b1;
+$LIGHT_GRAY: #e4e4e4;
+$WHITE_GRAY: #f7f7f7;
+
+$PINK_GRAD: linear-gradient(
+  90deg,
+  hsla(120, 46%, 92%, 1) 0%,
+  hsla(147, 95%, 8%, 1) 100%
+);
+$BLUE_GREEN_GRAD: linear-gradient(
+  180deg,
+  hsla(180, 47%, 31%, 1) 0%,
+  hsla(191, 80%, 12%, 1) 100%
+);
+$BLUE_GRAD: linear-gradient(
+  180deg,
+  hsla(191, 80%, 12%, 1) 0%,
+  hsla(180, 29%, 77%, 1) 100%
+);
+$RAINBOW_PASTEL_GRAD: linear-gradient(
+  to right,
+  rgb(200, 190, 255) 0%,
+  rgb(222, 168, 248) 10%,
+  rgb(168, 222, 258) 30%,
+  rgb(189, 250, 205) 42%,
+  rgb(243, 250, 189) 58%,
+  rgb(250, 227, 189) 70%,
+  rgb(248, 172, 171) 95%,
+  rgb(254, 170, 212) 100%
+);
+
+$BOX_SHADOW: 0px 3px 8px rgba(0, 0, 0, 0.24);
+$BOX_SHADOW_BOTTOM: 0px 3px 8px 0px rgba(0, 0, 0, 0.24);
+
+$NAV_HEIGHT: 60px;
+$NAV_Z_INDEX: 100;
+$SIDE_NAV_WIDTH: 15%;
+$SIDE_NAV_Z_INDEX: 101;
+
+$LARGE_TABLET_WIDTH: 765px;
+$LARGE_DESKTOP: 1560px;
+
+// Cool Colors
+// #7D84B2
+// #E8871E
+// #3891A6
+// #F2545B
+// #7B3E19
+// #F87060
+
+// 0a1834
+// #1A3B83
+// #e8ebf3
+// #047CC0
+// #27C6A0
+// #15AA4B
+
+// V1
+// $DARK_BLUE: #052c35;
+// $BLUE: #bbecd2;
+// $YELLOW: #005bd3;
+// $DARK_GREEN: #96bd2b;
+// $HOVER_GREEN: #87aa27;
+// $BLUE_GREEN_GRAD: linear-gradient(180deg, #052c35 0%, #bbecd2 100%);
+$BLUE_GREEN_GRAD2: linear-gradient(90deg, #bbecd2 0%, #052c35 100%);
+$BLUE_GREEN_GRAD3: linear-gradient(90deg, #052c35 0%, #bbecd2 120%);
+
+// V2
+// $DARK_GREEN: #012712;
+// $MEDIUM_GREEN: #055829;
+// $PINK: #03632d;
+// $YELLOW: #edb230;
+// $WHITE_GREEN: #e1f4e1;

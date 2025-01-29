@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdownLeft {
+  margin-right: 10px !important;
+}
+
+.dropdownRight {
+  margin-left: 10px;
+}

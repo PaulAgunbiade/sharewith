@@ -1,0 +1,72 @@
+@use "./variables" as var;
+
+/* Importing Nunito with different font weights */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap");
+/* Importing Nunito Sans with different font weights */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700;800&display=swap");
+/* Importing Open Sans with different font weights */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  overscroll-behavior: none;
+
+  div {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-family: "Nunito sans";
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+  }
+
+  h2 {
+    font-family: "Nunito sans";
+    font-size: 21px;
+    margin: 0;
+    padding: 0;
+  }
+
+  h3 {
+    font-family: "Nunito sans";
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+
+  h4 {
+    font-family: "Nunito sans";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    font-family: "Open Sans";
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+
+  span {
+    font-family: "Open Sans";
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+
+  button {
+    font-family: "Nunito sans";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+  input {
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+  }
+}

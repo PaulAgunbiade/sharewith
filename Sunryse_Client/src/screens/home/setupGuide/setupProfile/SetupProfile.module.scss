@@ -1,0 +1,60 @@
+@use "../../../../variables" as var;
+
+.topAccordian {
+  border-radius: 10px 10px 0px 0px !important;
+}
+
+.unselectedAccordian {
+  background-color: white !important;
+}
+
+.unselectedAccordian:hover {
+  background-color: white !important;
+}
+
+.selectedAccordian {
+  background-color: white !important;
+}
+
+.summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 800;
+  color: var.$SOFT_BLACK;
+}
+
+.subTitle {
+  font-size: 14px;
+  font-weight: 500;
+  color: var.$SOFT_BLACK;
+  line-height: 30px;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 43px;
+}
+
+.detailsContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.image {
+  width: 200px;
+  height: 150px;
+  margin-top: -15px;
+  margin-right: 30px;
+  margin-left: 10px;
+  border-radius: 10px;
+}

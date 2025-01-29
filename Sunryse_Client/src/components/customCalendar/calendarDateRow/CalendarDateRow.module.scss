@@ -1,0 +1,46 @@
+@use "../../../variables" as var;
+
+.dateRowContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.spacer {
+  flex: 1;
+  min-width: 50px;
+  max-width: 50px;
+  min-height: 40px;
+  max-height: 40px;
+}
+
+.dateContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: solid;
+  border-width: 1px 1px 1px 0px;
+  border-color: var.$LIGHT_GRAY;
+}
+
+.firstDateContainer {
+  border-width: 1px 1px 1px 1px !important;
+  border-radius: 5px 0px 0px 0px;
+}
+
+.lastDateContainer {
+  border-radius: 0px 5px 0px 0px;
+}
+
+.dateText {
+  font-size: 12px;
+  font-weight: 700;
+  color: var.$DARK_GRAY;
+}

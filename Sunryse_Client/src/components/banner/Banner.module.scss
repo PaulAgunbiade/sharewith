@@ -1,0 +1,22 @@
+@use "../../variables" as var;
+.banner {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: var.$LIGHT_BLUE;
+  border-radius: 5px;
+  box-shadow: var.$BOX_SHADOW;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 90%;
+  gap: 5px;
+}
+.title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.text {
+  font-size: 14px;
+}

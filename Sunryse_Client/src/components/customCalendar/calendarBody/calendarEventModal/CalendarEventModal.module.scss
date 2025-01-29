@@ -1,0 +1,17 @@
+@use "../../../../variables" as var;
+
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 100px;
+  min-height: 100px;
+  padding: 25px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: white;
+  -webkit-box-shadow: var.$BOX_SHADOW;
+  -moz-box-shadow: var.$BOX_SHADOW;
+  box-shadow: var.$BOX_SHADOW;
+}

@@ -1,0 +1,58 @@
+@use "../../variables" as var;
+
+.navBarContainer {
+  position: sticky;
+  top: 0px;
+  left: 18%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: var.$NAV_HEIGHT;
+  z-index: var.$NAV_Z_INDEX;
+  background-color: white;
+  box-shadow: var.$BOX_SHADOW_BOTTOM;
+}
+
+.navOptionsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80px;
+  margin-right: 25px;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 28px;
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.iconContainer:hover {
+  background-color: var.$LIGHT_GRAY;
+  cursor: pointer;
+}
+
+.icon {
+  color: var.$DARK_BLUE;
+}
+
+.clinicName {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var.$DARK_BLUE;
+  margin: 0px 0px 0px 25px;
+}
+
+.profilePicture {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}

@@ -1,0 +1,75 @@
+@use "../../../variables" as var;
+.screen {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.card {
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: var.$BOX_SHADOW;
+  p {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+.profileContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.button {
+  width: 100px;
+  background-color: var.$DARK_BLUE;
+  padding: 0px;
+  margin-top: 10px !important;
+}
+
+.button:hover {
+  background-color: var.$SOFT_BLACK !important;
+}
+
+.profileDescription {
+  .clinicName {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .clinicType {
+    font-size: 14px;
+    color: var.$GRAY;
+    margin-left: 2px;
+  }
+}
+
+.profileDetail {
+  .directoryName {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0px;
+  }
+  a {
+    text-decoration: none;
+    font-weight: 600;
+  }
+}
+.status {
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  color: var.$ERROR_RED;
+  margin: 10px 0px;
+  font-size: 14px;
+}
+
+.published {
+  color: lightgreen;
+}
