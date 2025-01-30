@@ -57,7 +57,7 @@ export default function Login() {
     <div className={styles.footerContainer}>
       <p className={styles.text}>
         Forgot your password?{" "}
-        <Link to="/resetPassword/email" className={styles.link}>
+        <Link to="/login/reset" className={styles.link}>
           Reset
         </Link>
       </p>
