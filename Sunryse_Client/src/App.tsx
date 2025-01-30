@@ -5,7 +5,8 @@ import PublicRouteLayout from "./screens/layout/publicRouteLayout/PublicRouteLay
 
 import Login from "./screens/login/Login";
 import Register from "./screens/register/Register";
-import ResetPassword from "./screens/resetPassword/ResetPassword";
+import ForgotPassword from "./screens/ForgotPassword/ForgotPassword"; // ✅ New screen
+import NewPassword from "./screens/NewPassword/NewPassword"; // ✅ Renamed file
 import OtpVerification from "./screens/otpVerification/OtpVerification";
 import EmailVerification from "./screens/emailVerification/EmailVerification";
 import Unauthorized from "./screens/Unauthorized";
@@ -24,9 +25,10 @@ const PublicRoutes = (
   <Route path="/" element={<PublicRouteLayout />}>
     <Route index element={<Navigate to="/login" />} />{" "}
     <Route path="login" element={<Login />} />
+    <Route path="login/reset" element={<ForgotPassword />} />
+    <Route path="resetPassword/new" element={<NewPassword />} />
     <Route path="register" element={<Register />} />
     <Route path="otp" element={<OtpVerification />} />
-    <Route path="resetPassword" element={<ResetPassword />} />
     <Route path="resetPassword/email" element={<EmailVerification />} />
     <Route path="unauthorized" element={<Unauthorized />} />
     <Route path="*" element={<Missing />} />
